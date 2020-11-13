@@ -1,10 +1,6 @@
 # Git
 alias gc="git checkout"
 alias gpo="git push origin"
-alias gm="git merge"
-
-# Fast open
-alias o="open ."
 
 # List all files colorized in long format
 alias l="ls -laF"
