@@ -1,14 +1,5 @@
 #!/bin/bash
 
-# Symlink dotfiles
-rm ~/.vimrc
-rm ~/.bashrc
-ln -sv ~/.dotfiles/.vimrc ~
-ln -sv ~/.dotfiles/.bashrc ~
-
-#Reload bash profile
-source ~/.bashrc
-
 # Update Ubuntu and get standard repository programs
 sudo apt update && sudo apt full-upgrade -y
 
@@ -39,7 +30,6 @@ install wget
 install figlet
 install lolcat
 install cmus 
-install telegram 
 
 # Get all upgrades
 sudo apt upgrade -y
