@@ -6,3 +6,7 @@
 
 `ln -sv ~/.dotfiles/.vimrc ~`
 `ln -sv ~/.dotfiles/.bashrc ~`
+
+4. reload bash
+
+`source ~/.bashrc`
